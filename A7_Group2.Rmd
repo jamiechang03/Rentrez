@@ -12,9 +12,10 @@ Jamie Chang 20264333, Aidan McLeod 20294254, Jade Goodman 20282975, Isabella Inf
 
 [GitHub](https://github.com/jamiechang03/Rentrez)
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(BiocManager)
 library(annotate)
+library(Biostrings)
 ```
 
 ### Pt. 1
@@ -137,4 +138,4 @@ This is problematic as Yersinia pestis is responsible for the plague^1^.
 
 **References**
 
-Achtman M, Zurth K, Morelli G, Torrea G, Guiyoule A, Carniel E. yersinia pestis, the cause of plague, is a recently emerged clone of yersinia pseudotuberculosis. Proceedings of the National Academy of Sciences. 1999;96(24):14043-14048. doi:10.1073/pnas.96.24.14043 
+1. Achtman M, Zurth K, Morelli G, Torrea G, Guiyoule A, Carniel E. yersinia pestis, the cause of plague, is a recently emerged clone of yersinia pseudotuberculosis. Proceedings of the National Academy of Sciences. 1999;96(24):14043-14048. doi:10.1073/pnas.96.24.14043 
